@@ -1,0 +1,50 @@
+Anggota
+POST : 
+https://localhost/api/backend/anggota/anggota_post.php
+https://localhost/api/backend/anggota/update_anggota.php
+GET : 
+https://localhost/api/backend/anggota/find_anggota.php
+https://localhost/api/backend/anggota/delete_anggota.php
+https://localhost/api/backend/anggota/show_anggota.php
+
+	-nama_anggota : text
+	-alamat : text
+	
+Buku
+POST : 
+https://localhost/api/backend/buku/buku_post.php
+https://localhost/api/backend/buku/update_buku.php
+GET : 
+https://localhost/api/backend/buku/show_buku.php
+https://localhost/api/backend//buku/find_buku.php
+https://localhost/api/backend/buku/delete_buku.php?id=3
+
+	-judul_buku : text
+	-pengarang : text
+	
+Peminjaman
+POST : 
+https://localhost/api/backend/peminjaman/peminjaman_post.php
+https://localhost/api/backend/peminjaman/update_peminjaman.php
+GET : 
+https://localhost/api/backend/peminjaman/show_peminjaman.php
+https://localhost/api/backend/peminjaman/find_peminjaman.php
+https://localhost/api/backend/peminjaman/delete_peminjaman.php
+
+	-id_anggota : text
+	-id_buku : text
+	-id_pustakawan : text
+	-tanggal_peminjaman : text
+	-tanggal_pengembalian : text
+
+pustakawan
+POST : 
+https://localhost/api/backend/pustakawan/pst_post.php
+https://localhost/api/backend/pustakawan/update_pst.php
+GET : 
+https://localhost/api/backend/pustakawan/show_pst.php
+https://localhost/api/backend/pustakawan/find_pst.php
+https://localhost/api/backend/pustakawan/delete_pst.php
+
+	-nama_pustakawan : text
+	-alamat : text
